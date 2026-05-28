@@ -5,7 +5,7 @@ import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://bosschemsolution.com'),
-  title: "Engine Coolant Manufacturer in Surat | Boss Chem Solution",
+  title: "Boss Chem Solution | Coolant Manufacturer in Surat, Gujarat",
   description: "Boss Chem Solution - Leading engine coolant manufacturer in Surat, Gujarat. Premium radiator coolant, antifreeze coolant, distilled water for battery. ISO certified, 15+ years experience. Best coolant for cars, trucks, industrial vehicles.",
   keywords: "engine coolant, radiator coolant, antifreeze coolant, coolant manufacturer Surat, car coolant, bike coolant, truck coolant, distilled water, battery water, coolant price, best engine coolant, automotive coolant, industrial coolant, Boss Chem Solution",
   authors: [{ name: "Boss Chem Solution" }],
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://bosschemsolution.com",
   },
   openGraph: {
-    title: "Engine Coolant Manufacturer in Surat | Boss Chem Solution",
+    title: "Boss Chem Solution | Coolant Manufacturer in Surat",
     description: "Premium engine coolant & radiator coolant manufacturer in Surat. ISO certified, 15+ years experience. Best coolant for all vehicles.",
     type: "website",
     url: "https://bosschemsolution.com",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Engine Coolant Manufacturer in Surat | Boss Chem Solution",
+    title: "Boss Chem Solution | Coolant Manufacturer in Surat",
     description: "Premium engine coolant & radiator coolant manufacturer in Surat. ISO certified, 15+ years experience.",
     images: ["/images/og-image.jpg"],
   },
@@ -41,7 +41,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <script
           type="application/ld+json"
