@@ -40,8 +40,8 @@ function Header() {
 
   return (
     <>
-      <nav
-        className={`fixed top-0 left-0 right-0 z-50 md:py-4 py-3 bg-white transition-shadow duration-300 ${scrolled ? 'shadow-lg' : 'shadow-md'
+      <header
+        className={`fixed top-0 left-0 right-0 z-50 md:py-4 py-3 bg-white border-none transition-shadow duration-300 ${scrolled ? 'shadow-lg' : ''
           }`}
       >
         <div className="container mx-auto px-4">
@@ -93,7 +93,7 @@ function Header() {
             </button>
           </div>
         </div>
-      </nav>
+      </header>
 
       {/* Mobile Sidebar — rendered outside <nav> via fragment */}
       <MobileSidebar

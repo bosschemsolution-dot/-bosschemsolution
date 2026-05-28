@@ -64,7 +64,7 @@ export default function MobileSidebar({ isOpen, onClose, navLinks, onNavClick }:
         className="fixed inset-0 lg:hidden"
         style={{
           zIndex: 200,
-          backgroundColor: 'rgba(0,0,0,0.20)',
+          backgroundColor: 'rgba(0,0,0,0.30)',
           opacity: visible ? 1 : 0,
           transition: `opacity ${DURATION}ms ease-in-out`,
           pointerEvents: visible ? 'auto' : 'none',
