@@ -63,7 +63,7 @@ export default function RootLayout({
               "image": "https://bosschemsolution.com/images/og-image.jpg",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "46 Shiv Villa Society, Mission Road",
+                "streetAddress": "Mission Road",
                 "addressLocality": "Surat",
                 "addressRegion": "Gujarat",
                 "postalCode": "395001",
@@ -79,7 +79,7 @@ export default function RootLayout({
       </head>
       <body className="bg-gray-50 text-gray-800">
         <Header />
-        <main className="pt-20 md:pt-24">{children}</main>
+        <main className="pt-[64px] md:pt-[72px]">{children}</main>
         <Footer />
       </body>
     </html>
