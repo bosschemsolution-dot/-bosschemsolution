@@ -31,6 +31,14 @@ export const metadata: Metadata = {
     description: "Premium engine coolant & radiator coolant manufacturer in Surat. ISO certified, 15+ years experience.",
     images: ["/images/og-image.jpg"],
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: "/favicon.png",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -41,9 +49,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <script
           type="application/ld+json"
