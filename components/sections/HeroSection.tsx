@@ -54,7 +54,7 @@ export default function HeroSection() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp" style={{ animationDelay: '0.8s' }}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-5 lg:mb-8 animate-fadeInUp" style={{ animationDelay: '0.8s' }}>
             <Button size="lg" className="group shadow-2xl hover:shadow-blue-500/50" asChild>
               <a href="#products" className="relative overflow-hidden">
                 <span className="relative z-10 flex items-center">
