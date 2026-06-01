@@ -121,7 +121,7 @@ export default function ProductsSection() {
                       <div><span className="font-medium">Purity:</span> 99.9%</div>
                       <div><span className="font-medium">pH:</span> 6.5-7.5</div>
                       <div><span className="font-medium">Conductivity:</span> Less than 5 uS/cm</div>
-                      <div><span className="font-medium">TDS:</span> Less than 3 ppm</div>
+                      <div><span className="font-medium">TDS:</span> Less than 0 ppm</div>
                     </div>
                   </div>
                 </div>
